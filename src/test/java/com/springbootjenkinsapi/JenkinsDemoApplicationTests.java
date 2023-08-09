@@ -11,6 +11,7 @@ class JenkinsDemoApplicationTests {
 	@Test
 	void contextLoads() {
 		log.info("Test case executing...");
+		log.info("Test main branch...");
 		assert(true);
 	}
 
